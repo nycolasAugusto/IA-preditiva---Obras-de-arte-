@@ -1,0 +1,13 @@
+Hipótese: 
+Obras de arte pertencentes a determinados departamentos culturais tradicionais (como Pinturas Europeias), associadas a materiais nobres e com status de domínio público, possuem uma probabilidade estatisticamente significante maior de serem marcadas como destaques oficiais (Is Highlight) no acervo digital do que artefatos de culturas menos documentadas.
+
+
+Variável Alvo ($y$ — O que queremos prever):
+Is Highlight (Binária: 1 se a obra é um destaque/interesse principal do museu, 0 caso contrário.
+
+Variáveis Explicativas ($X$ — O que usamos para explicar/prever):
+
+Department (Departamento cultural do museu via One-Hot Encoding).
+Is Public Domain (Se a obra é de domínio público).
+AccessionYear (Ano em que a obra entrou para o acervo do museu).
+Medium (Materiais utilizados, ex: óleo sobre tela, bronze).
